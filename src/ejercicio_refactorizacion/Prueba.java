@@ -24,11 +24,7 @@ public class Prueba {
             vector[posicion] = this.valor;
         }
         //Mostramos los elementos del array
-        System.out.print("vector={");
-        for (i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
+        visualizar(i, longitud, vector);
     }
 
     //metodo que borra el elemento de la posicion p desplazando a la izquierda todos los elementos
@@ -53,11 +49,7 @@ public class Prueba {
         }
 
         //Mostramos los elementos del array
-        System.out.print("vector={");
-        for (i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
+        visualizar(i, longitud, vector);
     }
 
     //metodo que inserta un elemento en la posicion p desplazando a la derecha todos los elementos
@@ -82,6 +74,10 @@ public class Prueba {
             vector[posicion] = this.valor;
         }
 
+        visualizar(i, longitud, vector);
+    }
+
+    public void visualizar(int i, final int longitud, int[] vector) {
         //Mostramos los elementos del array
         System.out.print("vector={");
         for (i = 0; i < longitud; i++) {
