@@ -6,7 +6,7 @@ public class Prueba {
     
     //metodo que modifica el contenido de la posicion p 
     //de un array con el valor pasado
-    public void modificar(int[] vector) {
+    public void modificar(int[] vector, int LongitudActual) {
         int i;
         int posicion = 1;
 
@@ -31,7 +31,7 @@ public class Prueba {
     }
 
     //metodo que borra el elemento de la posicion p desplazando a la izquierda todos los elementos
-    public void borrar(int[] vector) {
+    public void borrar(int[] vector, int LongitudActual) {
         int posicion = 1, i;
 
         //mostramos su contenido
@@ -59,7 +59,7 @@ public class Prueba {
     }
 
     //metodo que inserta un elemento en la posicion p desplazando a la derecha todos los elementos
-    public void insertar(int[] vector) {
+    public void insertar(int[] vector, int LongitudActual) {
         int posicion = 1, i;
 
         //mostramos su contenido
