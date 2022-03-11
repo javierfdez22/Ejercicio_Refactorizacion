@@ -1,8 +1,7 @@
 package ejercicio_refactorizacion;
 
-public class CambiaLongitud {
+public class CambiaLongitud extends Vector {
         
-    private int valor;
     
     //metodo que modifica el contenido de la posicion p 
     //de un array con el valor pasado
@@ -76,26 +75,4 @@ public class CambiaLongitud {
         visualizar(i, longitud, vector);
     }
 
-    public void visualizar(int i, final int longitud, int[] vector) {
-        //Mostramos los elementos del array
-        System.out.print("vector={");
-        for (i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
-    }
-
-    /**
-     * @return the valor
-     */
-    public int getValor() {
-        return valor;
-    }
-
-    /**
-     * @param valor the valor to set
-     */
-    public void setValor(int valor) {
-        this.valor = valor;
-    }
 }
