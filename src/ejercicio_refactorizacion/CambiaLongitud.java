@@ -1,6 +1,6 @@
 package ejercicio_refactorizacion;
 
-public class Prueba {
+public class CambiaLongitud {
         
     private int valor;
     
