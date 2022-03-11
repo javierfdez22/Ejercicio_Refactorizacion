@@ -10,7 +10,7 @@ public class Ejercicio_Refactorizacion {
         vector[1] = 4;
         vector[2] = 6;
         Prueba p = new Prueba();
-        p.valor = 10;
+        p.setValor(10);
         p.modificar(vector, 0, 1);
         p.borrar(vector, 0, 1);
         p.insertar(vector, 0, 1);
